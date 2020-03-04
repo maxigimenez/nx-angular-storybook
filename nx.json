@@ -1,0 +1,22 @@
+{
+  "npmScope": "nx-angular-storybook",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "my-app": {
+      "tags": []
+    },
+    "my-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["my-app"]
+    }
+  }
+}
