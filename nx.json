@@ -17,6 +17,9 @@
     "my-app-e2e": {
       "tags": [],
       "implicitDependencies": ["my-app"]
+    },
+    "my-lib": {
+      "tags": []
     }
   }
 }
